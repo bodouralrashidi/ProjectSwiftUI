@@ -13,6 +13,11 @@
 		AE2F77A8246F30AA0020BB3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2F77A7246F30AA0020BB3B /* Assets.xcassets */; };
 		AE2F77AB246F30AA0020BB3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2F77AA246F30AA0020BB3B /* Preview Assets.xcassets */; };
 		AE2F77AE246F30AA0020BB3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2F77AC246F30AA0020BB3B /* LaunchScreen.storyboard */; };
+		AE2F77B7246F34EC0020BB3B /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77B6246F34EC0020BB3B /* Homepage.swift */; };
+		AE2F77B9246F34FD0020BB3B /* Activitypage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77B8246F34FD0020BB3B /* Activitypage.swift */; };
+		AE2F77BB246F350B0020BB3B /* Gamepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77BA246F350B0020BB3B /* Gamepage.swift */; };
+		AE2F77BD246F35170020BB3B /* Chatpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77BC246F35170020BB3B /* Chatpage.swift */; };
+		AE2F77BF246F352C0020BB3B /* Athkarpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77BE246F352C0020BB3B /* Athkarpage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		AE2F77AA246F30AA0020BB3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE2F77AD246F30AA0020BB3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2F77AF246F30AA0020BB3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2F77B6246F34EC0020BB3B /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		AE2F77B8246F34FD0020BB3B /* Activitypage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activitypage.swift; sourceTree = "<group>"; };
+		AE2F77BA246F350B0020BB3B /* Gamepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gamepage.swift; sourceTree = "<group>"; };
+		AE2F77BC246F35170020BB3B /* Chatpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatpage.swift; sourceTree = "<group>"; };
+		AE2F77BE246F352C0020BB3B /* Athkarpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athkarpage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 				AE2F77A3246F30A80020BB3B /* SceneDelegate.swift */,
 				AE2F77A5246F30A80020BB3B /* ContentView.swift */,
 				AE2F77A7246F30AA0020BB3B /* Assets.xcassets */,
+				AE2F77B5246F31C80020BB3B /* TABS */,
 				AE2F77AC246F30AA0020BB3B /* LaunchScreen.storyboard */,
 				AE2F77AF246F30AA0020BB3B /* Info.plist */,
 				AE2F77A9246F30AA0020BB3B /* Preview Content */,
@@ -73,6 +84,18 @@
 				AE2F77AA246F30AA0020BB3B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE2F77B5246F31C80020BB3B /* TABS */ = {
+			isa = PBXGroup;
+			children = (
+				AE2F77B6246F34EC0020BB3B /* Homepage.swift */,
+				AE2F77B8246F34FD0020BB3B /* Activitypage.swift */,
+				AE2F77BA246F350B0020BB3B /* Gamepage.swift */,
+				AE2F77BC246F35170020BB3B /* Chatpage.swift */,
+				AE2F77BE246F352C0020BB3B /* Athkarpage.swift */,
+			);
+			path = TABS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +171,12 @@
 			files = (
 				AE2F77A2246F30A80020BB3B /* AppDelegate.swift in Sources */,
 				AE2F77A4246F30A80020BB3B /* SceneDelegate.swift in Sources */,
+				AE2F77BD246F35170020BB3B /* Chatpage.swift in Sources */,
+				AE2F77BF246F352C0020BB3B /* Athkarpage.swift in Sources */,
 				AE2F77A6246F30A80020BB3B /* ContentView.swift in Sources */,
+				AE2F77B9246F34FD0020BB3B /* Activitypage.swift in Sources */,
+				AE2F77BB246F350B0020BB3B /* Gamepage.swift in Sources */,
+				AE2F77B7246F34EC0020BB3B /* Homepage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

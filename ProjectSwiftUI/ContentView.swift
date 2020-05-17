@@ -10,7 +10,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        TabView{
+            Athkarpage().tabItem {Image(systemName:"heart")}
+            
+            Activitypage().tabItem {Image(systemName:"paintbrush")}
+            
+            Homepage().tabItem {Image(systemName: "house")}
+            
+            Chatpage().tabItem {Image(systemName: "captions.bubble")}
+            
+            Gamepage().tabItem {Image(systemName:"gamecontroller")}
+            
+        }
     }
 }
 
