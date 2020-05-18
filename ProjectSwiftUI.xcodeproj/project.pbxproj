@@ -21,6 +21,7 @@
 		AE2F77BF246F352C0020BB3B /* Athkarpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77BE246F352C0020BB3B /* Athkarpage.swift */; };
 		AEBDEFE824721E800017468D /* EmotionseEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBDEFE724721E800017468D /* EmotionseEnum.swift */; };
 		AEBDEFEA24722AF80017468D /* EmotionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBDEFE924722AF80017468D /* EmotionState.swift */; };
+		AEBDEFEC24724CE30017468D /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBDEFEB24724CE30017468D /* Notifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		AE2F77BE246F352C0020BB3B /* Athkarpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athkarpage.swift; sourceTree = "<group>"; };
 		AEBDEFE724721E800017468D /* EmotionseEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionseEnum.swift; sourceTree = "<group>"; };
 		AEBDEFE924722AF80017468D /* EmotionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionState.swift; sourceTree = "<group>"; };
+		AEBDEFEB24724CE30017468D /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AE2F77BE246F352C0020BB3B /* Athkarpage.swift */,
 				AEBDEFE724721E800017468D /* EmotionseEnum.swift */,
 				AEBDEFE924722AF80017468D /* EmotionState.swift */,
+				AEBDEFEB24724CE30017468D /* Notifications.swift */,
 			);
 			path = TABS;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			files = (
 				AE2F77A2246F30A80020BB3B /* AppDelegate.swift in Sources */,
 				AE2F77A4246F30A80020BB3B /* SceneDelegate.swift in Sources */,
+				AEBDEFEC24724CE30017468D /* Notifications.swift in Sources */,
 				AE2F77BD246F35170020BB3B /* Chatpage.swift in Sources */,
 				AE2F77BF246F352C0020BB3B /* Athkarpage.swift in Sources */,
 				AE2F77A6246F30A80020BB3B /* ContentView.swift in Sources */,
