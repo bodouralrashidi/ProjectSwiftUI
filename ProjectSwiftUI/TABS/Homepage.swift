@@ -15,9 +15,24 @@ struct Homepage: View {
         ZStack{
             VStack{
                 HStack{
-                    Text("Today")
+                    HStack(alignment: .center, spacing: 80)
+                    {
+                        Text("مزاج اليوم").bold()
+                            
+                        Image(emotions.happy.rawValue).resizable()
+                        .frame(width: 60, height: 60)
+                   }.offset(x: 60 ,y:-50)
+                    HStack(
                     
                 }
+                    
+                    }
+                .frame(width: 350 ,height:200).background(Color.blue)
+                    .cornerRadius(25)
+                    .shadow(radius: 20)
+                .foregroundColor(.white)
+                    
+                  
                     HStack{
                                 Text("Today")
                                }
