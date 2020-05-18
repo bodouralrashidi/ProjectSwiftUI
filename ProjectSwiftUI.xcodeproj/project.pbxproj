@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93DB263A2472409600F48352 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DB26392472409600F48352 /* SignInView.swift */; };
 		AE2F77A2246F30A80020BB3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77A1246F30A80020BB3B /* AppDelegate.swift */; };
 		AE2F77A4246F30A80020BB3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77A3246F30A80020BB3B /* SceneDelegate.swift */; };
 		AE2F77A6246F30A80020BB3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77A5246F30A80020BB3B /* ContentView.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93DB26392472409600F48352 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		AE2F779E246F30A80020BB3B /* ProjectSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2F77A1246F30A80020BB3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE2F77A3246F30A80020BB3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				AE2F77B6246F34EC0020BB3B /* Homepage.swift */,
+				93DB26392472409600F48352 /* SignInView.swift */,
 				AE2F77B8246F34FD0020BB3B /* Activitypage.swift */,
 				AE2F77BA246F350B0020BB3B /* Gamepage.swift */,
 				AE2F77BC246F35170020BB3B /* Chatpage.swift */,
@@ -184,6 +187,7 @@
 				AE2F77B9246F34FD0020BB3B /* Activitypage.swift in Sources */,
 				AE2F77BB246F350B0020BB3B /* Gamepage.swift in Sources */,
 				AE2F77B7246F34EC0020BB3B /* Homepage.swift in Sources */,
+				93DB263A2472409600F48352 /* SignInView.swift in Sources */,
 				AEBDEFE824721E800017468D /* EmotionseEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
