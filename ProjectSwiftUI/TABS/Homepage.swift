@@ -17,7 +17,7 @@ struct Homepage: View {
         ZStack{
             VStack{
                 HStack{
-                      Text("Today")
+                      Text("tyyttty")
                     }
                 
                 VStack{
