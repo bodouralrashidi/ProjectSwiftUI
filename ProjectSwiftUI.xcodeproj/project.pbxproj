@@ -18,6 +18,8 @@
 		AE2F77BB246F350B0020BB3B /* Gamepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77BA246F350B0020BB3B /* Gamepage.swift */; };
 		AE2F77BD246F35170020BB3B /* Chatpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77BC246F35170020BB3B /* Chatpage.swift */; };
 		AE2F77BF246F352C0020BB3B /* Athkarpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77BE246F352C0020BB3B /* Athkarpage.swift */; };
+		AEBDEFE824721E800017468D /* EmotionseEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBDEFE724721E800017468D /* EmotionseEnum.swift */; };
+		AEBDEFEA24722AF80017468D /* EmotionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBDEFE924722AF80017468D /* EmotionState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		AE2F77BA246F350B0020BB3B /* Gamepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gamepage.swift; sourceTree = "<group>"; };
 		AE2F77BC246F35170020BB3B /* Chatpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatpage.swift; sourceTree = "<group>"; };
 		AE2F77BE246F352C0020BB3B /* Athkarpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athkarpage.swift; sourceTree = "<group>"; };
+		AEBDEFE724721E800017468D /* EmotionseEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionseEnum.swift; sourceTree = "<group>"; };
+		AEBDEFE924722AF80017468D /* EmotionState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 				AE2F77BA246F350B0020BB3B /* Gamepage.swift */,
 				AE2F77BC246F35170020BB3B /* Chatpage.swift */,
 				AE2F77BE246F352C0020BB3B /* Athkarpage.swift */,
+				AEBDEFE724721E800017468D /* EmotionseEnum.swift */,
+				AEBDEFE924722AF80017468D /* EmotionState.swift */,
 			);
 			path = TABS;
 			sourceTree = "<group>";
@@ -174,9 +180,11 @@
 				AE2F77BD246F35170020BB3B /* Chatpage.swift in Sources */,
 				AE2F77BF246F352C0020BB3B /* Athkarpage.swift in Sources */,
 				AE2F77A6246F30A80020BB3B /* ContentView.swift in Sources */,
+				AEBDEFEA24722AF80017468D /* EmotionState.swift in Sources */,
 				AE2F77B9246F34FD0020BB3B /* Activitypage.swift in Sources */,
 				AE2F77BB246F350B0020BB3B /* Gamepage.swift in Sources */,
 				AE2F77B7246F34EC0020BB3B /* Homepage.swift in Sources */,
+				AEBDEFE824721E800017468D /* EmotionseEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
