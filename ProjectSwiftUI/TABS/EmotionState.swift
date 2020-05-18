@@ -8,7 +8,7 @@
 import SwiftUI
 
 class Env : ObservableObject{
-    @Published var variable : emotions = .happy
+    @Published var mood : emotions = .sad
     
 }
 

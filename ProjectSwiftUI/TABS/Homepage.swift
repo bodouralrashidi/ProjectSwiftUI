@@ -10,35 +10,62 @@ import SwiftUI
 
 struct Homepage: View {
 @EnvironmentObject var env : Env
-
+    
+       
+       
     var body: some View {
         ZStack{
             VStack{
                 HStack{
+                      Text("tyyttty")
+                    }
+                
+                VStack{
                     HStack(alignment: .center, spacing: 80)
                     {
                         Text("مزاج اليوم").bold()
-                            
+                       
                         Image(emotions.happy.rawValue).resizable()
                         .frame(width: 60, height: 60)
-                   }.offset(x: 60 ,y:-50)
+                   }.offset(x: 60 ,y:-30)
                     HStack{
-                    Text(" ")
+                     Text("سعيد").bold()
                 }
                     
+                }.modifier(buttonlayout())
+                    .padding()
+                    VStack{
+                        HStack(alignment: .center, spacing: 80)
+                        {
+                            Text("مزاج اليوم").bold()
+                            
+                            Image(emotions.happy.rawValue).resizable()
+                            .frame(width: 60, height: 60)
+                       }.offset(x: 60 ,y:-30)
+                        HStack{
+                         Text("سعيد").bold()
                     }
-                .frame(width: 350 ,height:200).background(Color.blue)
-                    .cornerRadius(25)
-                    .shadow(radius: 20)
-                .foregroundColor(.white)
-                    
+                        
+                }.modifier(buttonlayout())
+                .padding()
+                VStack{
+                                    HStack(alignment: .center, spacing: 80)
+                                    {
+                                        Text("مزاج اليوم").bold()
+                                        
+                                        Image(emotions.happy.rawValue).resizable()
+                                        .frame(width: 60, height: 60)
+                                   }.offset(x: 60 ,y:-30)
+                                    HStack{
+                                     Text("سعيد").bold()
+                                }
+                                    
+                            }.modifier(buttonlayout())
                   
-                    HStack{
-                                Text("Today")
-                               }
+                 
                 
                 
-                
+           /*
             ScrollView(.horizontal){
             
                 HStack(alignment: .center)
@@ -52,7 +79,7 @@ struct Homepage: View {
                 }.frame(width: 300, height:80) .offset(x : 20)
                 
             //UIScreen.main.bounds.width
-            }.padding()
+            }.padding()*/
         }
         } }
 }
@@ -66,6 +93,11 @@ struct Homepage_Previews: PreviewProvider {
 struct buttonlayout : ViewModifier {
     func body(content: Content) -> some View {
         content
+        .frame(width: 350 ,height:150).background(Color.blue)
+    
+            .cornerRadius(25)
+            .shadow(radius: 20)
+        .foregroundColor(.white)
         
     }
 }
