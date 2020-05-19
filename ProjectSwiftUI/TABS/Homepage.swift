@@ -22,9 +22,9 @@ struct Homepage: View {
                         Image(emotions.happy.rawValue).resizable()
                         .frame(width: 60, height: 60)
                    }.offset(x: 60 ,y:-50)
-                    HStack{
-                    Text(" ")
-                }
+//                    HStack{
+//                    Text(" ")
+//              }
                     
                     }
                 .frame(width: 350 ,height:200).background(Color.blue)

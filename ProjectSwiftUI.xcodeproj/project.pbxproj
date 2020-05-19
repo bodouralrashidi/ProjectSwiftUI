@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93775D3C247313C60034E36F /* quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93775D3B247313C60034E36F /* quotes.swift */; };
+		93775D3E247321120034E36F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93775D3D247321120034E36F /* SignUpView.swift */; };
+		93775D47247364E30034E36F /* hobbies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93775D46247364E20034E36F /* hobbies.swift */; };
 		93DB263A2472409600F48352 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DB26392472409600F48352 /* SignInView.swift */; };
 		AE2F77A2246F30A80020BB3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77A1246F30A80020BB3B /* AppDelegate.swift */; };
 		AE2F77A4246F30A80020BB3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2F77A3246F30A80020BB3B /* SceneDelegate.swift */; };
@@ -24,6 +27,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93775D3B247313C60034E36F /* quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quotes.swift; sourceTree = "<group>"; };
+		93775D3D247321120034E36F /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		93775D40247332E90034E36F /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		93775D41247332E90034E36F /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		93775D42247332E90034E36F /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		93775D43247332E90034E36F /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		93775D44247332E90034E36F /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Black.ttf"; sourceTree = "<group>"; };
+		93775D45247332EA0034E36F /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		93775D46247364E20034E36F /* hobbies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hobbies.swift; sourceTree = "<group>"; };
 		93DB26392472409600F48352 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		AE2F779E246F30A80020BB3B /* ProjectSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2F77A1246F30A80020BB3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +65,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93775D3A2473132A0034E36F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				93775D3B247313C60034E36F /* quotes.swift */,
+				93775D46247364E20034E36F /* hobbies.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		93775D3F2473329F0034E36F /* font */ = {
+			isa = PBXGroup;
+			children = (
+				93775D44247332E90034E36F /* Cairo-Black.ttf */,
+				93775D45247332EA0034E36F /* Cairo-Bold.ttf */,
+				93775D43247332E90034E36F /* Cairo-ExtraLight.ttf */,
+				93775D40247332E90034E36F /* Cairo-Light.ttf */,
+				93775D41247332E90034E36F /* Cairo-Regular.ttf */,
+				93775D42247332E90034E36F /* Cairo-SemiBold.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
 		AE2F7795246F30A80020BB3B = {
 			isa = PBXGroup;
 			children = (
@@ -76,9 +110,11 @@
 				AE2F77A3246F30A80020BB3B /* SceneDelegate.swift */,
 				AE2F77A5246F30A80020BB3B /* ContentView.swift */,
 				AE2F77A7246F30AA0020BB3B /* Assets.xcassets */,
+				93775D3A2473132A0034E36F /* models */,
 				AE2F77B5246F31C80020BB3B /* TABS */,
 				AE2F77AC246F30AA0020BB3B /* LaunchScreen.storyboard */,
 				AE2F77AF246F30AA0020BB3B /* Info.plist */,
+				93775D3F2473329F0034E36F /* font */,
 				AE2F77A9246F30AA0020BB3B /* Preview Content */,
 			);
 			path = ProjectSwiftUI;
@@ -97,6 +133,7 @@
 			children = (
 				AE2F77B6246F34EC0020BB3B /* Homepage.swift */,
 				93DB26392472409600F48352 /* SignInView.swift */,
+				93775D3D247321120034E36F /* SignUpView.swift */,
 				AE2F77B8246F34FD0020BB3B /* Activitypage.swift */,
 				AE2F77BA246F350B0020BB3B /* Gamepage.swift */,
 				AE2F77BC246F35170020BB3B /* Chatpage.swift */,
@@ -178,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93775D3C247313C60034E36F /* quotes.swift in Sources */,
 				AE2F77A2246F30A80020BB3B /* AppDelegate.swift in Sources */,
 				AE2F77A4246F30A80020BB3B /* SceneDelegate.swift in Sources */,
 				AE2F77BD246F35170020BB3B /* Chatpage.swift in Sources */,
@@ -185,9 +223,11 @@
 				AE2F77A6246F30A80020BB3B /* ContentView.swift in Sources */,
 				AEBDEFEA24722AF80017468D /* EmotionState.swift in Sources */,
 				AE2F77B9246F34FD0020BB3B /* Activitypage.swift in Sources */,
+				93775D3E247321120034E36F /* SignUpView.swift in Sources */,
 				AE2F77BB246F350B0020BB3B /* Gamepage.swift in Sources */,
 				AE2F77B7246F34EC0020BB3B /* Homepage.swift in Sources */,
 				93DB263A2472409600F48352 /* SignInView.swift in Sources */,
+				93775D47247364E30034E36F /* hobbies.swift in Sources */,
 				AEBDEFE824721E800017468D /* EmotionseEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

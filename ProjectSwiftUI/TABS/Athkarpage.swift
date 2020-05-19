@@ -10,7 +10,10 @@ import SwiftUI
 
 struct Athkarpage: View {
     var body: some View {
-       Text("اذكاري")
+      
+            Text("اذكاري")
+            
+        
     }
 }
 
